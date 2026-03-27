@@ -14,7 +14,11 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CheckCircle, Sparkles, Zap } from "lucide-react";
 
-const CALENDAR_URL = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3UV4O8bH8Nf10cv3ZiWdArJ9xcsFMNYML3KLAFLji3TZXBiLBEVNBFktQwyBodLL2A6xi5yMiz";
+const CALENDAR_URL = "https://bit.ly/4dxZh5N";
+
+const openDemo = () => {
+  window.open(CALENDAR_URL, "_blank", "noopener,noreferrer");
+};
 
 export default function LandingPage() {
   return (
@@ -41,7 +45,7 @@ export default function LandingPage() {
       ]}
       brandName="AI Receptionist"
       button={{ 
-        text: "Book a Demo", href: CALENDAR_URL
+        text: "Book a Demo", onClick: openDemo
       }}
     />
   </div>
@@ -61,7 +65,7 @@ export default function LandingPage() {
       tagIcon={Sparkles}
       buttons={[
         { 
-          text: "Book a Demo",          href: CALENDAR_URL
+          text: "Book a Demo", onClick: openDemo
         },
         { text: "Learn More", href: "#solution" },
       ]}
@@ -174,7 +178,7 @@ export default function LandingPage() {
       tagIcon={Zap}
       mediaPosition="left"
       buttonText="Get a Free Demo"
-      onSubmit={(email: string) => window.open(CALENDAR_URL, "_blank")}
+      onSubmit={(email: string) => openDemo()}
     />
   </div>
 
