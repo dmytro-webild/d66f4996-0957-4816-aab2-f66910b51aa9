@@ -41,7 +41,7 @@ export default function LandingPage() {
       ]}
       brandName="AI Receptionist"
       button={{ 
-        text: "Book a Demo",        href: CALENDAR_URL, target: "_blank"
+        text: "Book a Demo", href: CALENDAR_URL
       }}
     />
   </div>
@@ -68,7 +68,6 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-futuristic-ai-receptionist-interface-s-1774495678348-058d3396.jpg"
       imageAlt="AI receptionist interface showing voice agent interactions"
       mediaAnimation="slide-up"
-      buttonClassName="hover:scale-105 transition-all duration-300"
     />
   </div>
 
@@ -142,9 +141,9 @@ export default function LandingPage() {
       logos={[
         "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-minimalist-sleek-logo-for-a-global-tec-1774495675177-1d7006db.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-sophisticated-logo-for-a-data-analytic-1774495676145-4d916f28.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-dynamic-logo-for-a-dynamic-startup-1774495675921-5279e341.png"
       ]}
+      names={[]}
       title="Industry Partners"
       description="We collaborate with visionary companies to define the future of AI communication."
-      names={[]}
     />
   </div>
 
@@ -161,7 +160,6 @@ export default function LandingPage() {
       mediaAnimation="opacity"
       title="Frequently Asked Questions"
       description="Find quick answers to common questions about our AI receptionist voice agent."
-      tag="Assistance"
       faqsAnimation="slide-up"
     />
   </div>
@@ -176,9 +174,7 @@ export default function LandingPage() {
       tagIcon={Zap}
       mediaPosition="left"
       buttonText="Get a Free Demo"
-      onSubmit={() => window.open(CALENDAR_URL, "_blank")}
-      className="animate-in fade-in duration-700 slide-in-from-bottom-8"
-      buttonClassName="hover:scale-105 transition-all duration-300"
+      onSubmit={(email: string) => window.open(CALENDAR_URL, "_blank")}
     />
   </div>
 
@@ -189,7 +185,6 @@ export default function LandingPage() {
         { items: [{ label: "Home", href: "/" }, { label: "Solution", href: "#solution" }, { label: "Features", href: "#features" }] },
         { items: [{ label: "Testimonials", href: "#testimonials" }, { label: "FAQ", href: "#faq" }, { label: "Contact", href: "#contact" }] },
       ]}
-      className="animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-300"
     />
   </div>
       </ReactLenis>
