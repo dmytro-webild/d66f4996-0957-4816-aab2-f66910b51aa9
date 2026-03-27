@@ -41,8 +41,7 @@ export default function LandingPage() {
       ]}
       brandName="AI Receptionist"
       button={{ 
-        text: "Book a Demo", 
-        onClick: () => window.open(CALENDAR_URL, "_blank")
+        text: "Book a Demo"
       }}
     />
   </div>
@@ -62,8 +61,7 @@ export default function LandingPage() {
       tagIcon={Sparkles}
       buttons={[
         { 
-          text: "Book a Demo", 
-          onClick: () => window.open(CALENDAR_URL, "_blank")
+          text: "Book a Demo"
         },
         { text: "Learn More", href: "#solution" },
       ]}
