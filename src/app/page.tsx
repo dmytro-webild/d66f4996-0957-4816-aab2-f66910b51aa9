@@ -40,7 +40,7 @@ export default function LandingPage() {
       brandName="AI Receptionist"
       button={{ 
         text: "Book a Demo", 
-        href: "https://calendar.app.google/tTxj6mGbHhvJD9FN9",        onClick: () => window.open("https://calendar.app.google/tTxj6mGbHhvJD9FN9", "_blank")
+        href: "https://calendar.app.google/tTxj6mGbHhvJD9FN9"
       }}
     />
   </div>
@@ -61,7 +61,7 @@ export default function LandingPage() {
       buttons={[
         { 
           text: "Book a Demo", 
-          onClick: () => window.open("https://calendar.app.google/tTxj6mGbHhvJD9FN9", "_blank")
+          href: "https://calendar.app.google/tTxj6mGbHhvJD9FN9"
         },
         { text: "Learn More", href: "#solution" },
       ]}
