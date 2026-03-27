@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "FAQ", id: "faq" },
       ]}
       brandName="AI Receptionist"
-      button={{ text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37", onClick: () => window.open("https://calendar.app.google/5bqyh6WTq4khx4t37", "_blank") }}
+      button={{ text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37" }}
     />
   </div>
 
@@ -56,7 +56,7 @@ export default function LandingPage() {
       tag="Premium AI Agency"
       tagIcon={Sparkles}
       buttons={[
-        { text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37", onClick: () => window.open("https://calendar.app.google/5bqyh6WTq4khx4t37", "_blank") },
+        { text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37" },
         { text: "Learn More", href: "#solution" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-futuristic-ai-receptionist-interface-s-1774495678348-058d3396.jpg"
@@ -134,7 +134,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       logos={[
-        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-minimalist-sleek-logo-for-a-global-tec-1774495675177-1d7006db.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-sophisticated-logo-for-a-data-analytic-1774495676145-4d916f28.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-dynamic-logo-for-a-startup-focused-on--1774495675921-5279e341.png"
+        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-minimalist-sleek-logo-for-a-global-tec-1774495675177-1d7006db.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-sophisticated-logo-for-a-data-analytic-1774495676145-4d916f28.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-dynamic-logo-for-a-dynamic-startup-1774495675921-5279e341.png"
       ]}
       title="Industry Partners"
       description="We collaborate with visionary companies to define the future of AI communication."
