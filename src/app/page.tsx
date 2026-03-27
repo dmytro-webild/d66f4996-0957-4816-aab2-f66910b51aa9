@@ -14,7 +14,7 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CheckCircle, Sparkles, Zap } from "lucide-react";
 
-const CALENDAR_URL = "https://calendar.app.google/tTxj6mGbHhvJD9FN9";
+const CALENDAR_URL = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3UV4O8bH8Nf10cv3ZiWdArJ9xcsFMNYML3KLAFLji3TZXBiLBEVNBFktQwyBodLL2A6xi5yMiz";
 
 export default function LandingPage() {
   return (
