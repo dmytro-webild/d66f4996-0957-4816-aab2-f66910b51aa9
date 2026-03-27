@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "FAQ", id: "faq" },
       ]}
       brandName="AI Receptionist"
-      button={{ text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37" }}
+      button={{ text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37", onClick: () => window.open("https://calendar.app.google/5bqyh6WTq4khx4t37", "_blank") }}
     />
   </div>
 
@@ -56,7 +56,7 @@ export default function LandingPage() {
       tag="Premium AI Agency"
       tagIcon={Sparkles}
       buttons={[
-        { text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37" },
+        { text: "Book a Demo", href: "https://calendar.app.google/5bqyh6WTq4khx4t37", onClick: () => window.open("https://calendar.app.google/5bqyh6WTq4khx4t37", "_blank") },
         { text: "Learn More", href: "#solution" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/a-futuristic-ai-receptionist-interface-s-1774495678348-058d3396.jpg"
