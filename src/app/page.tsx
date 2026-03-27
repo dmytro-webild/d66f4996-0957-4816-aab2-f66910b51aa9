@@ -169,6 +169,8 @@ export default function LandingPage() {
       tagIcon={Zap}
       mediaPosition="left"
       buttonText="Get a Free Demo"
+      className="animate-in fade-in duration-700 slide-in-from-bottom-8"
+      formClassName="hover:scale-[1.02] transition-transform duration-500 ease-out"
     />
   </div>
 
@@ -179,6 +181,7 @@ export default function LandingPage() {
         { items: [{ label: "Home", href: "/" }, { label: "Solution", href: "#solution" }, { label: "Features", href: "#features" }] },
         { items: [{ label: "Testimonials", href: "#testimonials" }, { label: "FAQ", href: "#faq" }, { label: "Contact", href: "#contact" }] },
       ]}
+      className="animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-300"
     />
   </div>
       </ReactLenis>
