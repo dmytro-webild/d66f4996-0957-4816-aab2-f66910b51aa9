@@ -14,6 +14,8 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CheckCircle, Sparkles, Zap } from "lucide-react";
 
+const CALENDAR_URL = "https://calendar.app.google/tTxj6mGbHhvJD9FN9";
+
 export default function LandingPage() {
   return (
     <ThemeProvider
@@ -40,7 +42,7 @@ export default function LandingPage() {
       brandName="AI Receptionist"
       button={{ 
         text: "Book a Demo", 
-        href: "https://calendar.app.google/tTxj6mGbHhvJD9FN9"
+        onClick: () => window.open(CALENDAR_URL, "_blank")
       }}
     />
   </div>
@@ -61,7 +63,7 @@ export default function LandingPage() {
       buttons={[
         { 
           text: "Book a Demo", 
-          href: "https://calendar.app.google/tTxj6mGbHhvJD9FN9"
+          onClick: () => window.open(CALENDAR_URL, "_blank")
         },
         { text: "Learn More", href: "#solution" },
       ]}
@@ -176,7 +178,7 @@ export default function LandingPage() {
       tagIcon={Zap}
       mediaPosition="left"
       buttonText="Get a Free Demo"
-      onSubmit={() => window.open("https://calendar.app.google/tTxj6mGbHhvJD9FN9", "_blank")}
+      onSubmit={() => window.open(CALENDAR_URL, "_blank")}
       className="animate-in fade-in duration-700 slide-in-from-bottom-8"
       buttonClassName="hover:scale-105 transition-all duration-300"
     />
