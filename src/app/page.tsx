@@ -84,10 +84,10 @@ export default function LandingPage() {
       tag="Premium Capabilities"
       tagIcon={CheckCircle}
       accordionItems={[
-        { id: "1", title: "Natural Language Understanding", content: "Our AI comprehends complex queries and context, delivering human-like responses that feel genuinely conversational." },
-        { id: "2", title: "Multi-Channel Integration", content: "Deploy your AI receptionist across phone, web, and chat platforms, ensuring consistent and accessible support." },
-        { id: "3", title: "24/7 Global Availability", content: "Never miss a call or inquiry, our AI operates tirelessly around the clock, catering to international time zones." },
-        { id: "4", title: "Scalable & Cost-Effective", content: "Scale your customer service without limits, reducing operational costs while maintaining high-quality interactions." },
+        { id: "1", title: "Intelligent Automation", content: "Automate routine tasks and workflows, allowing your human team to focus on high-value interactions." },
+        { id: "2", title: "Seamless Outbound Calling", content: "Proactively reach out to leads and customers with human-like voice synthesis for follow-ups and appointment scheduling." },
+        { id: "3", title: "Smart Lead Qualification", content: "Instantly qualify incoming leads based on custom criteria, ensuring your team only spends time on high-potential opportunities." },
+        { id: "4", title: "Efficient Inbound Calling", content: "Provide immediate, 24/7 support for all incoming calls, resolving queries instantly with context-aware responses." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B6hxR9KmiqFEvcYhnaTk3O3joT/an-illustration-of-an-ai-voice-agent-int-1774495676217-a1ad5521.png"
       imageAlt="AI voice agent interacting with a customer"
