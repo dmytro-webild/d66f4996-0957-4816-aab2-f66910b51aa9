@@ -41,7 +41,7 @@ export default function LandingPage() {
       ]}
       brandName="AI Receptionist"
       button={{ 
-        text: "Book a Demo",        href: CALENDAR_URL
+        text: "Book a Demo",        href: CALENDAR_URL, target: "_blank"
       }}
     />
   </div>
